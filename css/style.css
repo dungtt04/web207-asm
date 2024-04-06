@@ -110,10 +110,8 @@ span hr{
  /* footer */
  #footer{
     padding-top: 50px;
-    background-image: url(../images/images.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-color: #c7c7c7;
+    /* color: white;     */
  }
  .col-md-3 ul{
     list-style: none;

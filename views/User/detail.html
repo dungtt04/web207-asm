@@ -1,14 +1,4 @@
 <main class="overflow-hidden">
-  <div class="de-bg w-100">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="fs-1">Hương vị thiên nhiên</h2>
-          <span>Thư giãn - Cảm nhận</span>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- Product Details-->
   <div class="product-details container mt-5">
     <div class="row">
@@ -21,21 +11,21 @@
             <div class="carousel-inner border-2 shadow-sm p-3">
               <div class="carousel-item active">
                 <img ng-model="p.image"
-                  src="/images/{{p.image}}"
+                  src="{{p.image}}"
                   class="d-block"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="/images/72781119ecd681-sclaxaycnghnhnhnvespresso.png"
+                  src="https://360.com.vn/wp-content/uploads/2022/10/APTTK360-QATTK310-13.jpg"
                   class="d-block"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="/images/64bd44180be24c-sinhtchanh.png"
+                  src="https://360.com.vn/wp-content/uploads/2022/10/APTTK360-QATTK310-13.jpg"
                   class="d-block"
                   alt="..."
                 />
@@ -72,7 +62,7 @@
                 class="active col"
                 aria-current="true"
                 aria-label="Slide 1"
-                src="/images/{{p.image}}"
+                src="{{p.image}}"
                 alt=""
               />
               <img
@@ -80,7 +70,7 @@
                 data-bs-target="#carouselExampleDark"
                 data-bs-slide-to="1"
                 aria-label="Slide 2"
-                src="/images/72781119ecd681-sclaxaycnghnhnhnvespresso.png"
+                src="https://360.com.vn/wp-content/uploads/2022/10/APTTK360-QATTK310-13.jpg"
                 alt=""
               />
               <img
@@ -88,7 +78,7 @@
                 data-bs-target="#carouselExampleDark"
                 data-bs-slide-to="2"
                 aria-label="Slide 3"
-                src="/images/64bd44180be24c-sinhtchanh.png"
+                src="https://360.com.vn/wp-content/uploads/2022/10/APTTK360-QATTK310-13.jpg"
                 alt=""
               />
             </div>
@@ -107,10 +97,7 @@
             </div>
             <div class="pro_de_price text-danger my-3" ng-model="p.price">{{p.price}} đ</div>
             <p>
-              Hồng trà là sự kết hợp hoàn hảo giữa lá trà xanh chất lượng
-              cao và hoa các nguyên liệu. Trà có mùi thơm tự nhiên của hoa
-              chanh, màu vàng đẹp, vị ngọt của hoa mật và vị đắng nhẹ của
-              trà tạo nên cảm giác khoan khoái và thư giãn cho người dùng.
+              {{p.description}}
             </p>
             <div class="row my-3">
               <div class="col-4 quantity d-flex align-items-center">
@@ -141,19 +128,7 @@
         <div class="product_details_desc">
           <h6 class="mb-3 fs-4">Thông tin sản phẩm</h6>
           <p>
-            Trà xanh được trồng tại nơi có khí hậu và thổ nhưỡng thích hợp
-            để có được những cây trà phẩm chất tốt nhất, thông qua sàng lọc
-            và lựa chọn ra những đọt trà non tươi ngon nhất để chế biến
-            thành sản phẩm chính vì vậy nên chất lượng của trà luôn được đảm
-            bảo tốt nhất. Trà được phơi khô không qua công đoạn lên men nhằm
-            mang lại hương vị thiên nhiên khi dùng, trà có màu xanh vàng và
-            vị đắng chát mạnh.
-          </p>
-          <p>
-            Hồng trà chanh là một thức uống rất được ưa thích, nhất là trong
-            những ngày nóng bức. Vị trà đậm đà nồng nàn, hòa quyện với vị
-            chanh chua chua tươi mát, thêm một chút vị ngọt thanh nhẹ, mang
-            đến một đồ uống giải nhiệt tức thì.
+           {{p.description}}
           </p>
         </div>
       </div>
@@ -170,22 +145,22 @@
         <div class="col">
           <div class="card h-100 p-3">
             <img
-              src="/images/4d247cffb2c4d5-hngtrchanh.png"
+              src="https://360.com.vn/wp-content/uploads/2022/10/APTTK360-QATTK310-13.jpg"
               class="h-100 w-100"
               alt="..."
             />
             <div class="card-body h-100">
               <h5 class="card-title text-center text-capitalize">
-                Hồng trà chanh
+                Quần âu nam
               </h5>
               <p class="card-text text-capitalize text-center">
-                Lime black tea
+                No Description
               </p>
             </div>
             <div
               class="card-footer text-center bg-white d-flex justify-content-between"
             >
-              <small class="text-b">40.000 đ</small>
+              <small class="text-b">400.000 đ</small>
               <a href="./detail.html"
                 ><button
                   class="card-button rounded-2 text-white text-capitalize"
@@ -199,81 +174,87 @@
         <div class="col">
           <div class="card h-100 p-3">
             <img
-              src="/images/64bd44180be24c-sinhtchanh.png"
+              src="https://360.com.vn/wp-content/uploads/2022/10/APTTK360-QATTK310-13.jpg"
               class="h-100 w-100"
               alt="..."
             />
             <div class="card-body h-100">
               <h5 class="card-title text-center text-capitalize">
-                Chanh Đá Xay
+                Quần âu nam
               </h5>
               <p class="card-text text-capitalize text-center">
-                Lime Ice Blended
+                No Description
               </p>
             </div>
             <div
               class="card-footer text-center bg-white d-flex justify-content-between"
             >
-              <small class="text-b">50.000 đ</small>
-              <button
-                class="card-button rounded-2 text-white text-capitalize"
+              <small class="text-b">400.000 đ</small>
+              <a href="./detail.html"
+                ><button
+                  class="card-button rounded-2 text-white text-capitalize"
+                >
+                  Xem chi tiết
+                </button></a
               >
-                Xem chi tiết
-              </button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 p-3">
             <img
-              src="/images/72781119ecd681-sclaxaycnghnhnhnvespresso.png"
+              src="https://360.com.vn/wp-content/uploads/2022/10/APTTK360-QATTK310-13.jpg"
               class="h-100 w-100"
               alt="..."
             />
             <div class="card-body h-100">
               <h5 class="card-title text-center text-capitalize">
-                Oreo Capuchino Đá Xay
+                Quần âu nam
               </h5>
               <p class="card-text text-capitalize text-center">
-                Oreo Espresso Ice Blended
+                No Description
               </p>
             </div>
             <div
               class="card-footer text-center bg-white d-flex justify-content-between"
             >
-              <small class="text-b">65.000 đ</small>
-              <button
-                class="card-button rounded-2 text-white text-capitalize"
+              <small class="text-b">400.000 đ</small>
+              <a href="./detail.html"
+                ><button
+                  class="card-button rounded-2 text-white text-capitalize"
+                >
+                  Xem chi tiết
+                </button></a
               >
-                Xem chi tiết
-              </button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 p-3">
             <img
-              src="/images/d1cd8bafdefe9d-matchalattephclong.png"
+              src="https://360.com.vn/wp-content/uploads/2022/10/APTTK360-QATTK310-13.jpg"
               class="h-100 w-100"
               alt="..."
             />
             <div class="card-body h-100">
               <h5 class="card-title text-center text-capitalize">
-                Trà Sữa Matcha
+                Quần âu nam
               </h5>
               <p class="card-text text-capitalize text-center">
-                matcha milk tea
+                No Description
               </p>
             </div>
             <div
               class="card-footer text-center bg-white d-flex justify-content-between"
             >
-              <small class="text-b">45.000 đ</small>
-              <button
-                class="card-button rounded-2 text-white text-capitalize"
+              <small class="text-b">400.000 đ</small>
+              <a href="./detail.html"
+                ><button
+                  class="card-button rounded-2 text-white text-capitalize"
+                >
+                  Xem chi tiết
+                </button></a
               >
-                Xem chi tiết
-              </button>
             </div>
           </div>
         </div>
