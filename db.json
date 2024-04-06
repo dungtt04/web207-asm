@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "name": "Hồng trà chanh",
+      "price": 40000,
+      "description": "Lime Black Tea",
+      "image": "4d247cffb2c4d5-hngtrchanh.png",
+      "id": "1"
+    },
+    {
+      "name": "Chanh đá xay",
+      "price": 50000,
+      "description": "Lime Ice Blended",
+      "image": "64bd44180be24c-sinhtchanh.png",
+      "id": "2"
+    },
+    {
+      "name": "Trà Sữa Matcha",
+      "price": 45000,
+      "description": "matcha milk tea",
+      "image": "d1cd8bafdefe9d-matchalattephclong.png",
+      "id": "3"
+    },
+    {
+      "name": "Sữa chua phúc bồn tử đác cam",
+      "price": 56000,
+      "description": "Raspberry Yogurt with Orange Dac Seed",
+      "image": "sachuaphcbntccamphclong.png",
+      "id": "4"
+    },
+    {
+      "name": "Oreo Capuchino Đá Xay",
+      "price": 45000,
+      "description": "Oreo Espresso Ice Blended",
+      "image": "72781119ecd681-sclaxaycnghnhnhnvespresso.png",
+      "id": "5"
+    },
+    {
+      "name": "Sản phẩm 6",
+      "price": 45000,
+      "description": "Lime Black Tea",
+      "image": "e3atrsanhnsen.png",
+      "id": "6"
+    },
+    {
+      "id": "4d96",
+      "name": "Trà Ô Long Dâu",
+      "price": 50000,
+      "description": "Strawberry Oolong Tea",
+      "image": "b-trlongdu.png"
+    },
+    {
+      "id": "5aa0",
+      "name": "nga hii",
+      "price": 3000000,
+      "description": "Strawberry Oolong Tea",
+      "image": "trnhnphclong.png"
+    },
+    {
+      "id": "243e",
+      "name": "Trà sen",
+      "price": 40000,
+      "description": "sen tea",
+      "image": "trsenlongiyphclong.png"
+    },
+    {
+      "id": "f0a8",
+      "name": "trà dầm đá",
+      "price": 55000,
+      "description": "ice milk tea",
+      "image": "damdadunggu07.png"
+    },
+    {
+      "id": "93f4",
+      "name": "Trà đác thơm",
+      "price": 50000,
+      "description": "pineapple tea",
+      "image": "c-dacthom.png"
+    },
+    {
+      "id": "94cd",
+      "name": "Cà phê phin",
+      "description": "pineapple tea",
+      "image": "cphrichphclong.png",
+      "price": 120000
+    },
+    {
+      "id": "7d9b",
+      "name": "Cà phê set",
+      "description": "pineapple tea",
+      "image": "cphsetcgi01.png",
+      "price": 150000
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- nav -->
+      <div class="video-wrapper shadow-sm mb-4">
+        <video playsinline autoplay muted loop poster="" class="w-100">
+          <source src="/images/desktop.mp4" type="video/mp4" />
+        </video>
+        <nav
+          class="navbar navbar-expand-lg p-3 rounded d-flex align-items-center"
+        >
+          <div class="container-fluid px-0">
+            <a class="logo mx-4" href="./index.html"
+              ><img src="/images/logos/SvqIUpD.webp"
+            /></a>
+            <div class="ms-auto align-items-center order-lg-3">
+              <div class="dropdown navbar-nav navbar-right-wrap mx-4 flex-row">
+                <a
+                  href=""
+                  data-bs-toggle="dropdown"
+                  data-bs-display="static"
+                  aria-expanded="false"
+                >
+                  <img
+                    alt="avatar"
+                    src="/images/avtar1.jpg"
+                    class="rounded-circle avatar"
+                /></a>
+                <div
+                  class="dropdown-menu dropdown-menu-end position-absolute my-2"
+                >
+                  <div class="dropdown-item">
+                    <div class="d-flex">
+                      <img
+                        alt="avatar"
+                        src="/images/avtar1.jpg"
+                        class="rounded-circle avatar"
+                      />
+                      <div class="ms-3 lh-1">
+                        <h5 class="mb-1">Nga mina</h5>
+                        <p class="mb-0 text-muted">ngantph31360@fpt.edu.vn</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <ul class="list-unstyled">
+                    <li>
+                      <a class="dropdown-item" href="./profile.html">
+                        <i class="bi bi-person-lines-fill me-2"></i> Thông tin
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        data-bs-target="#exampleModalToggle"
+                        data-bs-toggle="modal"
+                      >
+                        <i class="bi bi-gear-fill me-2"></i> Đăng ký
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        data-bs-target="#exampleModalToggle2"
+                        data-bs-toggle="modal"
+                      >
+                        <i class="bi bi-gear-fill me-2"></i> Đăng nhập
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        data-bs-target="#exampleModalToggle3"
+                        data-bs-toggle="modal"
+                        href="#"
+                      >
+                        <i class="bi bi-gear-fill me-2"></i> Quên mật khẩu
+                      </a>
+                    </li>
+                  </ul>
+                  <hr />
+                  <ul class="list-unstyled">
+                    <li>
+                      <a class="dropdown-item" href="./index.html">
+                        <i class="bi bi-power me-2"></i> Đăng xuất
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="./index.html"
+                    ><i class="bi bi-house-heart-fill"></i> Trang chủ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./aboutus.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html"
+                    ><i class="bi bi-headset"></i> Liên hệ</a
+                  >
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Góp ý</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="bi bi-question-diamond"></i> Blog</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <form
+              class="mt-3 mt-lg-0 ms-lg-3 d-flex align-items-center"
+              role="search"
+            >
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <a class="btn btn-outline-dark" href="./search.html">
+                <i class="bi bi-search-heart"></i>
+              </a>
+            </form>
+            <a href="./carts.html" class="cart text-black ms-2"
+              ><i class="bi bi-cart4 fs-2"></i
+            ></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- main -->
+    <main class="overflow-hidden">
+      <div class="de-bg w-100">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="fs-1">Vị trà truyền thống</h2>
+              <span>Viết bởi Phúc Long | 13/3/2024 </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-->
+      <div class="container mt-5">
+        <div class="row content">
+          <div class="col-sm-3">
+            <div class="list-group rounded-3">
+              <p
+                href="#"
+                class="list-group-item list-group-item-action title-ctgr"
+                aria-current="true"
+              >
+                <i class="bi bi-list-stars text-white"> Danh mục sản phẩm</i>
+              </p>
+              <a
+                href="./category.html"
+                class="list-group-item list-group-item-action"
+                >Cà phê gói</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Cà phê topping</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Nước đá xay</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Trà gói</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Trà topping</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Trà sữa</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Sữa chua</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Bánh tráng miệng</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Nước đá xay</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Cà phê hạt</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Trà hộp</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Set trà lễ</a
+              >
+            </div>
+            <div class="blog_item mt-5">
+                <h4>Bài viết gần đây</h4>
+                <div class="blog_recent mt-4">
+                  <a href="#" class="row mb-4 text-decoration-none">
+                    <div class="col-4 float-start">
+                      <img class="w-100" src="/images/banner_blog.jpg" alt="" />
+                    </div>
+                    <div class="col-8 text-black">
+                      <h6 class="text-capitalize align-items-center">
+                        từ những mầm trà, chúng tôi tạo ra niểm đam mê
+                      </h6>
+                    </div>
+                  </a>
+                  <a href="./blogdetail.html" class="row mb-4 text-decoration-none">
+                    <div class="col-4 float-start">
+                      <img class="w-100" src="/images/tratruyenthong_blog.jpg" alt="" />
+                    </div>
+                    <div class="col-8 text-black">
+                      <h6 class="text-capitalize">vị trà truyền thống</h6>
+                    </div>
+                  </a>
+                  <a href="#" class="row text-decoration-none">
+                    <div class="col-4 float-start">
+                      <img class="w-100" src="/images/blog_itiem22.jpg" alt="" />
+                    </div>
+                    <div class="col-8 text-black">
+                      <h6 class="text-capitalize">hạt cà phê rang xay</h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+          </div>
+          <div
+            class="col-sm-9 border border-dark-subtle rounded-3 bg-white p-3"
+          >
+            <h4 class="text-success text-center my-4 ">Đậm vị trà truyền thống</h4>
+            <div class="row">
+              <div class="col">
+                <p>
+                  Một cây trà nếu được trồng ở những vùng đất có độ cao và khí
+                  hậu khác nhau thì sẽ thu được những loại trà cũng khác nhau.
+                  Có thể thấy sự phức tạp đến từ phía bên trong, từ những thành
+                  phần cũng như cấu tạo hoá học độc nhất vô nhị mà chỉ mình cây
+                  trà có được. Thấu hiểu điều đó, để giữ trọn vị tươi nguyên,
+                  bảo toàn dưỡng chất tốt nhất, một búp và hai lá non thường
+                  được chúng tôi thu hái vào thời điểm sáng sớm. Tiếp đến, quy
+                  trình sản xuất để cho ra các sản phẩm trà chất lượng cũng được
+                  thực hiện khép kín.
+                </p>
+              </div>
+              <div class="col">
+                <img class="w-100" src="/images/tratruyenthong_1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img
+                  class="w-100"
+                  src="/images/vitratruyenthong_2 2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col">
+                <p>
+                  Trong quá trình tìm kiếm từng loại trà thượng hạng, Phúc Long
+                  luôn giữ gìn những hợp chất đặc biệt từ lá trà để làm nên tách
+                  trà đậm vị.Theanine (vị ngon) là cảm nhận được trạng thái tỉnh
+                  táo, tràn đầy năng lượng khi thưởng thức trà. Carbohydrate (vị
+                  ngọt) là đường tích trữ trong lá trà. Polyphenols (vị chát) là
+                  thành phần đặc biệt có nhiều trong lá trà non. Caffein (vị
+                  đắng) là thành phần bị ảnh hưởng bởi 2 yếu tố: nhiệt độ nước
+                  và cách ngâm. Để tiết chế caffein, khi pha nên dùng nước nhiệt
+                  độ vừa phải và giảm thời gian ngâm trà. Enzyme (men) là chất
+                  xúc tác sinh học thúc đẩy quá trình lên men của lá trà
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>
+                  Phúc Long thấu hiểu để có được một tách trà ngon thì từ quá
+                  trình thu hái lá trà cho đến quá trình sao chế và pha trà cũng
+                  cần phải chuẩn xác. Khi sao trà cần phải canh lửa vừa vặn, khi
+                  pha trà nhiệt độ nước cũng vừa phải. Để giờ đây, cầm trên tay
+                  tách trà ngát hương, nhâm nhi trọn vị trà truyền thống như là
+                  một cách thể hiện tâm tình đối với cuộc sống, cảm thụ hương vị
+                  tự nhiên toát ra từ lá trà, lòng an nhiên trước bao bộn bề.
+                </p>
+              </div>
+              <div class="col">
+                <img class="w-100 " src="/images/tratruyenthong_blog.jpg" alt="">
+              </div>
+            </div>
+            <div class="row">
+                <p>Nguồn: Phúc Long</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer" class="mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h5>VĂN PHÒNG GIAO DỊCH</h5>
+              <ul class="list-menu">
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Trang chủ</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Sản phẩm</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Giới thiệu</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>VỀ CHÚNG TÔI</h5>
+              <ul class="list-menu">
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Trang chủ</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Sản phẩm</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Giới thiệu</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>CHÍNH SÁCH BÁN HÀNG</h5>
+              <ul class="list-menu">
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Trang chủ</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Sản phẩm</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Giới thiệu</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>THEO DÕI CHÚNG TÔI</h5>
+              <ul class="list-menu">
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Trang chủ</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Sản phẩm</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Giới thiệu</a>
+                </li>
+                <li class="li_menu">
+                  <a href="" title="Trang chủ">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-md-6">
+              <h5>THIÊN ĐƯỜNG MUA SẮM (TÊN DN)</h5>
+              <p>Copyright@2023 Công ty cổ phần thương mại (ten dn)</p>
+              <p>Chứng nhận DKKD số: 0388282938 do sở KH & ĐT TP.Hà Nội cấp</p>
+              <p>Địa chỉ: Trịnh Văn Bô - Nam Từ Liêm - Hà Nội</p>
+              <p>Điện thoại: 0352403019 - Email: ngantph31360@fpt.edu.vn</p>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <span class="box50 border border-danger text-primary mr-3">
+                  <i class="bi bi-facebook"></i>
+                </span>
+                <span class="box50 border border-danger text mr-3">
+                  <i class="bi bi-instagram" style="color: #c87f19"></i>
+                </span>
+                <span class="box50 border border-danger text-white mr-3">
+                  <i class="bi bi-envelope-at-fill"></i>
+                </span>
+                <span class="box50 border border-danger text">
+                  <i class="bi bi-youtube" style="color: #c20606"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-md-6">
+              <p>Bản quyền thuộc về () Cung cấp bởi ()</p>
+            </div>
+            <div class="col-md-6 text-end">
+              Trang chủ Giới thiệu Sản Phẩm Liên hệ
+            </div>
+          </div>
+        </div>
+        <img
+          src="/images/footer_cat_desktop.webp"
+          class="w-100 img-footer"
+          alt=""
+        />
+      </div>
+    </footer>
+  <!-- Modal -->
+    <!-- dang ky -->
+    <div
+      class="modal fade"
+      id="exampleModalToggle"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="form-container">
+            <div class="form-header text-center">
+              <img class="w-25" src="/images/health_logo.webp" alt="" />
+              <h2 class="title">Đăng ký</h2>
+            </div>
+            <div class="form-body">
+              <form action="">
+                <div class="form-group mb-3">
+                  <label for="username" class="form-label">Tên đăng nhập</label>
+                  <div class="field d-flex">
+                    <span><i class="bi bi-file-person"></i></span>
+                    <input
+                      type="username"
+                      class="form-control"
+                      name="username"
+                      id="username"
+                      placeholder="Nhập họ tên"
+                    />
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <div class="field d-flex">
+                    <span><i class="bi bi-envelope-heart"></i></span>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Nhập email"
+                    />
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="password" class="form-label">Mật khẩu</label>
+                  <div class="field d-flex">
+                    <span><i class="bi bi-person-lock"></i></span>
+                    <input
+                      type="password"
+                      class="form-control"
+                      name="password"
+                      id="password"
+                      placeholder="Nhập mật khẩu"
+                    />
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <span>
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="remember"
+                    />
+                    <label class="form-check-label" for="remember"
+                      >Nhớ mật khẩu</label
+                    >
+                  </span>
+                  <a
+                    class="float-end"
+                    data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                    href="#"
+                    >Quên mật khẩu</a
+                  >
+                </div>
+                <div class="form-group mb-3">
+                  <button type="submit" class="btn submit text-white w-100">
+                    Đăng nhập
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="form-footer">
+              <div class="bottom text-center">
+                <span>Đã có tài khoản?</span
+                > <a data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                  >Đăng nhập</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dang nhap -->
+    <div
+      class="modal fade"
+      id="exampleModalToggle2"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="form-container">
+            <div class="form-header text-center">
+              <img class="w-25" src="/images/health_logo.webp" alt="" />
+              <h2 class="title">Đăng nhập</h2>
+            </div>
+            <div class="form-body">
+              <form action="">
+                <div class="form-group mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <div class="field d-flex">
+                    <span><i class="bi bi-envelope-heart"></i></span>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Nhập email"
+                    />
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="password" class="form-label">Mật khẩu</label>
+                  <div class="field d-flex">
+                    <span><i class="bi bi-person-lock"></i></span>
+                    <input
+                      type="password"
+                      class="form-control"
+                      name="password"
+                      id="password"
+                      placeholder="Nhập mật khẩu"
+                    />
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <span>
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="remember"
+                    />
+                    <label class="form-check-label" for="remember"
+                      >Nhớ mật khẩu</label
+                    >
+                  </span>
+                  <a
+                    class="float-end"
+                    data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                    href="#"
+                    >Quên mật khẩu</a
+                  >
+                </div>
+                <div class="form-group mb-3">
+                  <button type="submit" class="btn submit text-white w-100">
+                    Đăng nhập
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="form-footer">
+              <div class="bottom text-center">
+                <span>Chưa có tài khoản?</span
+                > <a data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                  >Đăng ký</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- quen mk -->
+    <div
+      class="modal fade"
+      id="exampleModalToggle3"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel3"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="form-container">
+            <div class="form-header text-center">
+              <img class="w-25" src="/images/health_logo.webp" alt="" />
+              <h2 class="title">Quên mật khẩu</h2>
+            </div>
+            <div class="form-body">
+              <form action="">
+                <div class="form-group mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <div class="field d-flex">
+                    <span><i class="bi bi-envelope-heart"></i></span>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Nhập email"
+                    />
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <button type="submit" class="btn submit text-white w-100">
+                    Gửi
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="form-footer">
+              <div class="bottom text-center">
+                <span>Chưa có tài khoản?</span
+                > <a data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                  >Đăng ký</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/min.js"></script>
+</html>

@@ -1,0 +1,41 @@
+<main class="overflow-hidden container ">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#!/admin"
+                ><i class="bi bi-clipboard-data"></i> List Product</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#!/add"
+                ><i class="bi bi-telephone-inbound-fill"></i> Category</a
+              >
+            </li> -->
+        </ul>
+        </div>
+      </nav>
+      <form action="" class="w-50 container ">
+        <h1 class="text-center mt-5 text-uppercase">Sửa sản phẩm</h1>
+      <div>
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" ng-model="inputValue.name"/>
+      </div>
+      <div>
+        <label for="" class="form-label">Price</label>
+        <input type="number" class="form-control" ng-model="inputValue.price"/>
+      </div>
+      <div>
+        <label for="" class="form-label">Description</label>
+        <input type="text" class="form-control" ng-model="inputValue.description"/>
+      </div>
+      <div>
+        <label for="" class="form-label">Image</label>
+        <input type="text" class="form-control" ng-model="inputValue.image"/>
+      </div>
+      <center>
+        <button type="button" class="btn btn-primary mt-3" ng-click="onUpdate()">Sửa</button>
+      </center>
+    </form>
+      
+</main>

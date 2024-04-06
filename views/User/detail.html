@@ -1,0 +1,283 @@
+<main class="overflow-hidden">
+  <div class="de-bg w-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="fs-1">Hương vị thiên nhiên</h2>
+          <span>Thư giãn - Cảm nhận</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product Details-->
+  <div class="product-details container mt-5">
+    <div class="row">
+      <div class="row border border-dark-subtle rounded-3 bg-white mb-4 ">
+        <div class="col-lg-6 col-md-6 mb-4">
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide"
+          >
+            <div class="carousel-inner border-2 shadow-sm p-3">
+              <div class="carousel-item active">
+                <img ng-model="p.image"
+                  src="/images/{{p.image}}"
+                  class="d-block"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/images/72781119ecd681-sclaxaycnghnhnhnvespresso.png"
+                  class="d-block"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/images/64bd44180be24c-sinhtchanh.png"
+                  class="d-block"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="row de-slide ms-1 my-2">
+              <img
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active col"
+                aria-current="true"
+                aria-label="Slide 1"
+                src="/images/{{p.image}}"
+                alt=""
+              />
+              <img
+                class="col"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                src="/images/72781119ecd681-sclaxaycnghnhnhnvespresso.png"
+                alt=""
+              />
+              <img
+                class="col"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+                src="/images/64bd44180be24c-sinhtchanh.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-4">
+          <div class="product_de p-3">
+            <h3>{{p.name}}</h3>
+            <div class="pro_de_rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-half text-warning"></i>
+              <span>(18 đánh giá)</span>
+            </div>
+            <div class="pro_de_price text-danger my-3" ng-model="p.price">{{p.price}} đ</div>
+            <p>
+              Hồng trà là sự kết hợp hoàn hảo giữa lá trà xanh chất lượng
+              cao và hoa các nguyên liệu. Trà có mùi thơm tự nhiên của hoa
+              chanh, màu vàng đẹp, vị ngọt của hoa mật và vị đắng nhẹ của
+              trà tạo nên cảm giác khoan khoái và thư giãn cho người dùng.
+            </p>
+            <div class="row my-3">
+              <div class="col-4 quantity d-flex align-items-center">
+                <span><i class="bi bi-dash-square fs-3 me-2"></i></span>
+                <input class="text-center me-2" type="" value="1" />
+                <span><i class="bi bi-plus-square fs-3"></i></span>
+              </div>
+              <div class="col-8">
+                <a href="./carts.html"><button class="btn btn-success">ADD TO CARD</button></a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <h5 class="sizes me-2">sizes:</h5>
+              <select
+                class="form-select w-25"
+                aria-label="Default select example"
+              >
+                <option value="1">S</option>
+                <option value="2">M</option>
+                <option value="3">L</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="col-lg-12 mt-3">
+        <div class="product_details_desc">
+          <h6 class="mb-3 fs-4">Thông tin sản phẩm</h6>
+          <p>
+            Trà xanh được trồng tại nơi có khí hậu và thổ nhưỡng thích hợp
+            để có được những cây trà phẩm chất tốt nhất, thông qua sàng lọc
+            và lựa chọn ra những đọt trà non tươi ngon nhất để chế biến
+            thành sản phẩm chính vì vậy nên chất lượng của trà luôn được đảm
+            bảo tốt nhất. Trà được phơi khô không qua công đoạn lên men nhằm
+            mang lại hương vị thiên nhiên khi dùng, trà có màu xanh vàng và
+            vị đắng chát mạnh.
+          </p>
+          <p>
+            Hồng trà chanh là một thức uống rất được ưa thích, nhất là trong
+            những ngày nóng bức. Vị trà đậm đà nồng nàn, hòa quyện với vị
+            chanh chua chua tươi mát, thêm một chút vị ngọt thanh nhẹ, mang
+            đến một đồ uống giải nhiệt tức thì.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="related-product container mt-5">
+    <div class="row mb-3">
+      <div class="col-lg-12 text-center">
+        <h2>Sản phẩm tương tự</h2>
+      </div>
+    </div>
+    <div class="border border-dark-subtle rounded-3 bg-white p-3">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100 p-3">
+            <img
+              src="/images/4d247cffb2c4d5-hngtrchanh.png"
+              class="h-100 w-100"
+              alt="..."
+            />
+            <div class="card-body h-100">
+              <h5 class="card-title text-center text-capitalize">
+                Hồng trà chanh
+              </h5>
+              <p class="card-text text-capitalize text-center">
+                Lime black tea
+              </p>
+            </div>
+            <div
+              class="card-footer text-center bg-white d-flex justify-content-between"
+            >
+              <small class="text-b">40.000 đ</small>
+              <a href="./detail.html"
+                ><button
+                  class="card-button rounded-2 text-white text-capitalize"
+                >
+                  Xem chi tiết
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3">
+            <img
+              src="/images/64bd44180be24c-sinhtchanh.png"
+              class="h-100 w-100"
+              alt="..."
+            />
+            <div class="card-body h-100">
+              <h5 class="card-title text-center text-capitalize">
+                Chanh Đá Xay
+              </h5>
+              <p class="card-text text-capitalize text-center">
+                Lime Ice Blended
+              </p>
+            </div>
+            <div
+              class="card-footer text-center bg-white d-flex justify-content-between"
+            >
+              <small class="text-b">50.000 đ</small>
+              <button
+                class="card-button rounded-2 text-white text-capitalize"
+              >
+                Xem chi tiết
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3">
+            <img
+              src="/images/72781119ecd681-sclaxaycnghnhnhnvespresso.png"
+              class="h-100 w-100"
+              alt="..."
+            />
+            <div class="card-body h-100">
+              <h5 class="card-title text-center text-capitalize">
+                Oreo Capuchino Đá Xay
+              </h5>
+              <p class="card-text text-capitalize text-center">
+                Oreo Espresso Ice Blended
+              </p>
+            </div>
+            <div
+              class="card-footer text-center bg-white d-flex justify-content-between"
+            >
+              <small class="text-b">65.000 đ</small>
+              <button
+                class="card-button rounded-2 text-white text-capitalize"
+              >
+                Xem chi tiết
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-3">
+            <img
+              src="/images/d1cd8bafdefe9d-matchalattephclong.png"
+              class="h-100 w-100"
+              alt="..."
+            />
+            <div class="card-body h-100">
+              <h5 class="card-title text-center text-capitalize">
+                Trà Sữa Matcha
+              </h5>
+              <p class="card-text text-capitalize text-center">
+                matcha milk tea
+              </p>
+            </div>
+            <div
+              class="card-footer text-center bg-white d-flex justify-content-between"
+            >
+              <small class="text-b">45.000 đ</small>
+              <button
+                class="card-button rounded-2 text-white text-capitalize"
+              >
+                Xem chi tiết
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
